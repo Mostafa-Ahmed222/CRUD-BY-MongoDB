@@ -1,8 +1,3 @@
-/* 
-Name : Mostafa Ahmed Mohamed Salah Eldin
-Group : C38 Saturday 10Am Node.js
-Assignment : 6
-*/
 import express from "express";
 import connectDB from "./DB/connection.js";
 import { authRouter, userRouter } from "./index.router.js";

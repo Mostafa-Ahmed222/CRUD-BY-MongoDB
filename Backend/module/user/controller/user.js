@@ -120,19 +120,3 @@ export const getUsersless = async (req, res) => {
     res.json({ message: "catch error", error });
   }
 };
-/* 
-Assignment 6 :  
-Creat API to:
-- Sign up (hash password)
-- Sign in
-- Update user by id
-- Update group of users (use updatmany )
-- Delete user by id
-- Delete group of users ( use delete many) 
-- Get user by id 
-- Get all users which their first name or last name contain (a)
-- Get all users which their first name contain a substring like( ami )
-- Get all users which their first name end with (a) and their age greater than or equal to 20
-- get user name start with A and age less than 30
-
-*/

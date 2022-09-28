@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const connectDB = async ()=> {
     return await mongoose
-    .connect("mongodb://0.0.0.0:27017/ass6")
+    .connect("mongodb://localhost:27017/ass6")
     .then(() => {
       console.log('connectedDB');
     }).catch((err)=> {
